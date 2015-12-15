@@ -41,7 +41,6 @@ a {
 }
 
 nav {
-    /*width: 90%;*/
     float: right;
 
 }
@@ -83,7 +82,7 @@ li {
 }
 
 
-#main {
+.main {
     width: 1000px;
     margin: auto;
     font-family: Arial, sans-serif;
@@ -97,6 +96,55 @@ li {
     font-family: "Trebuchet MS", Arial, sans-serif;
     font-size: 25px;
     color: #ffb400;
+}
+
+.catalog {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.item-1 {
+    float: left;
+    width: 270px;
+    height: 410px;
+    margin: 15px 10px 15px 10px;
+    border: 1px solid #c19954;
+    /*border: 3px;*/
+    /*border-image: url("img/dash.gif") 3;*/
+    background: url("img/catalog_background_2_small.jpg");
+}
+
+.item-1 img {
+    margin: 3px;
+}
+
+.item-bottom {
+    display: inline-block;
+    margin-top: -8px;
+}
+
+.item-size-m, .item-size-s, .item-size-l, .item-size-xl {
+    float: left;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fff;
+    margin: 2px;
+    display: inline-block;
+}
+
+.item-name {
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.item-price {
+    font-family: Verdana, sans-serif;
+    font-size: 19px;
+    font-weight: 800;
+    margin-top: 5px;
+    color: #341401;
 }
 
 .last-project {
@@ -119,6 +167,16 @@ li {
 .img-last-project-bottom {
     padding-right: 3px;
 }
+
+.page-1, .page-2, .page-3, .page-4 {
+    float: left;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fff;
+    margin: 2px;
+    display: inline-block;
+}
+
 
 footer {
     width: 1000px;
