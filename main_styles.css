@@ -139,6 +139,10 @@ li {
     margin-top: -10px;
 }
 
+.item-name p {
+    color: #ffb400;
+}
+
 .item-price {
     font-family: Verdana, sans-serif;
     font-size: 19px;
@@ -147,8 +151,11 @@ li {
     color: #341401;
 }
 
-.last-project {
+.clearfix {
+    clear: both;
+}
 
+.last-project {
     width: 100%;
     display: inline;
 }
