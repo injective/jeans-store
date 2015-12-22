@@ -84,7 +84,7 @@ li {
 
 .main {
     width: 1000px;
-    margin: auto;
+    margin: 0 auto;
     font-family: Arial, sans-serif;
     font-size: 14px;
     color: white;
@@ -99,10 +99,9 @@ li {
 }
 
 .catalog {
-    float: left;
-    width: 100%;
+    width: 876px;
     text-align: center;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .item-1 {
@@ -186,6 +185,7 @@ li {
 
 
 footer {
+    clear: both;
     width: 1000px;
     margin: auto;
     font-family: Arial, sans-serif;
@@ -196,3 +196,4 @@ footer {
     text-align: right;
     padding-top: 12px;
 }
+
